@@ -685,7 +685,8 @@ a:visited {
 .right-content{
 	width: 750px;
 	min-height: 584px;
-	padding: 20px 40px 0 33px;
+	padding: 20px 40px 0 40px;
+	overflow: hidden;
 }
 
 .co-right .content-title{
@@ -695,10 +696,12 @@ a:visited {
 	font-size: 18px;
 	color: #696969;
 	border-bottom: 1px dotted #898989;
+	overflow: hidden;
 }
 
 .content-wrap{
 	width: 100%;
+	position: relative;
 }
 
 .content-wrap h3{
@@ -707,7 +710,69 @@ a:visited {
 	font-weight: bold;
 }
 
-.content-wrap p{
+.content-wrap.course p{
 	text-indent: 2em;
 }
+
+.right-content .return{
+	float: right;
+	margin-top: 20px;
+	color: #898989;
+}
 /*course end*/
+
+/*team*/
+.content-list{
+	width: 100%;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.content-list li{
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+}
+
+.list-icon{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background-image: url(../img/list-icon.png);
+	background-size: 100% 100%;
+}
+/*team end*/
+
+/*principal*/
+/*
+.content-wrap h4{
+	margin: 10px 0 3px;
+	font-size: 14px;
+	font-weight: bold;
+}
+*/
+
+.content-wrap ol{
+	padding-left: 20px;
+	list-style: decimal;
+}
+
+.content-wrap .teacher-pic{
+	width: 140px;
+	max-height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+/*principal end*/
+
+/*teamintro*/
+.team-intro{
+	margin-top: 20px;
+}
+
+.team-intro p{
+	text-indent: 2em;
+}
+/*teamintro end*/
