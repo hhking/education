@@ -8,82 +8,211 @@
 </head>
 
 <body>
-	<div class="menu">
-		<ul class="nav" id="nav">
-			<li class="level">
-				<a href="#">首页</a>
-			</li>
-			<li class="level">
-				<a href="#">课程介绍</a>
-			</li>
-			<li class="level">
-				<a href="#">教学队伍</a>
-				<ul>
-					<li><a href="#">课程负责人</a>
-					</li>
-					<li><a href="#">主讲教师</a>
-					</li>
-					<li><a href="#">教学队伍结构</a>
-					</li>
-				</ul>
-			</li>
-			<li class="level">
-				<a href="#">教学内容</a>
-				<ul>
-					<li><a href="#">课程内容</a>
-					</li>
-					<li><a href="#">教学内容组织与安排</a>
-					</li>
-					<li><a href="#">实践教学</a>
-					</li>
-				</ul>
-			</li>
-			<li class="level">
-				<a href="#">教学条件</a>
-				<ul>
-					<li><a href="#">教材及相关资源</a>
-					</li>
-					<li><a href="#">实践教学条件</a>
-					</li>
-				</ul>
-			</li>
-			<li class="level">
-				<a href="#">教学方法</a>
-			</li>
-			<li class="level">
-				<a href="#">教学效果</a>
-				<ul>
-					<li><a href="#">同行及校内督导组评价</a>
-					</li>
-					<li><a href="#">学生评教</a>
-					</li>
-				</ul>
-			</li>
-			<li class="level">
-				<a href="#">教学内容</a>
-				<ul>
-					<li><a href="#">网络课程</a>
-					</li>
-					<li><a href="#">教学视频</a>
-					</li>
-					<li><a href="#">课程习题</a>
-					</li>
-					<li><a href="#">网络答疑</a>
-					</li>
-				</ul>
-			</li>
-			<li class="level">
-				<a href="#">教学资源</a>
-			</li>
-		</ul>
-	</div>
-	<div class="wrap">
-		<div class="content">
-			<div class="public"></div>
+	<div class="header">
+		<div class="logo-wrap">
+			<a href="#">
+				<img src="../assets/img/tlogo.png" class="logo" alt="土木工程学院">
+				<img src="../assets/img/szdx.png" class="school" alt="深圳大学">
+			</a>
+			<h1>建设项目风险管理</h1>
+		</div>
+		<div class="menu">
+			<ul class="nav" id="nav">
+				<li class="level">
+					<a href="#">首页</a>
+				</li>
+				<li class="level">
+					<a href="#">课程介绍</a>
+				</li>
+				<li class="level">
+					<a href="#">教学队伍</a>
+					<ul>
+						<li><a href="#">课程负责人</a>
+						</li>
+						<li><a href="#">主讲教师</a>
+						</li>
+						<li><a href="#">教学队伍结构</a>
+						</li>
+					</ul>
+				</li>
+				<li class="level">
+					<a href="#">教学内容</a>
+					<ul>
+						<li><a href="#">课程内容</a>
+						</li>
+						<li><a href="#">教学内容组织与安排</a>
+						</li>
+						<li><a href="#">实践教学</a>
+						</li>
+					</ul>
+				</li>
+				<li class="level">
+					<a href="#">教学条件</a>
+					<ul>
+						<li><a href="#">教材及相关资源</a>
+						</li>
+						<li><a href="#">实践教学条件</a>
+						</li>
+					</ul>
+				</li>
+				<li class="level">
+					<a href="#">教学方法</a>
+				</li>
+				<li class="level">
+					<a href="#">教学效果</a>
+					<ul>
+						<li><a href="#">同行及校内督导组评价</a>
+						</li>
+						<li><a href="#">学生评教</a>
+						</li>
+					</ul>
+				</li>
+				<li class="level">
+					<a href="#">教学内容</a>
+					<ul>
+						<li><a href="#">网络课程</a>
+						</li>
+						<li><a href="#">教学视频</a>
+						</li>
+						<li><a href="#">课程习题</a>
+						</li>
+						<li><a href="#">网络答疑</a>
+						</li>
+					</ul>
+				</li>
+				<li class="level">
+					<a href="#">教学资源</a>
+				</li>
+			</ul>
 		</div>
 	</div>
+
+	<section class="wrap">
+		<div class="container">
+			<div class="co-left">
+				<div class="public">
+					<h2>公告</h2>
+					<p>公告内容公告内容公告内容公告内容公告内容公告内容</p>
+				</div>
+				<div class="declaration">
+					<a href="#">申报表</a>
+					<span class="download"></span>
+				</div>
+				<div class="search-wrap">
+					<!--					<h2>站内搜索</h2>-->
+					<div class="search-input">
+						<input type="text" placeholder="请输入搜索内容">
+						<div class="search-btn">搜索</div>
+					</div>
+					<select name="title" id="s_title" class="s-title">
+						<option value="0">选择标题/作者</option>
+						<option value="1">标题</option>
+						<option value="2">作者</option>
+					</select>
+					<select name="column" id="s_column" class="s-column">
+						<option value="0">请选择栏目</option>
+						<option value="1">所有栏目</option>
+						<option value="2">课程描述</option>
+						<option value="3">教学队伍</option>
+						<option value="31">&nbsp;├课程负责人</option>
+						<option value="32">&nbsp;├主讲教师</option>
+						<option value="33">&nbsp;├教学队伍结构及整体素质</option>
+						<option value="4">教学内容</option>
+					</select>
+					<select name="year" id="s_year" class="s-year">
+						<option value="0">选择年份</option>
+						<option value="1">不限</option>
+						<option value="2">2005</option>
+						<option value="3">2006</option>
+						<option value="4">2007</option>
+						<option value="5">2008</option>
+						<option value="6">2009</option>
+						<option value="7">2010</option>
+					</select>
+					<select name="month" id="s_month" class="s-month">
+						<option value="0">选择月份</option>
+						<option value="1">不限</option>
+						<option value="2">1</option>
+						<option value="3">2</option>
+						<option value="4">3</option>
+						<option value="5">4</option>
+						<option value="6">5</option>
+						<option value="7">6</option>
+						<option value="8">7</option>
+						<option value="9">8</option>
+						<option value="10">9</option>
+						<option value="11">10</option>
+						<option value="12">11</option>
+						<option value="13">12</option>
+					</select>
+				</div>
+			</div>
+			<div class="co-right">
+				<div class="co-right-teacher">
+					<h2>课程负责人</h2>
+					<a href="#" class="more">more&nbsp;&rsaquo;&rsaquo;</a>
+					<div class="main-teacher">
+					<img src="../assets/img/wjy.png" alt="王家远" class="main-teacher-pic">
+					<div class="main-teacher-content">
+						<p>负责人：<a href="#">王家远</a></p>
+						<p>学位：工学硕士</p>
+						<p>职称：教授</p>
+						<p>职务：深圳大学土木工程学院院长</p>
+						<p>办公室：土木工程学院院馆B504</p>
+						<p>电话：0755-26536130</p>
+						<p>电子邮件：wangjy@szu.edu.cn</p>
+					</div>
+				</div>
+				<div class="main-teacher">
+					<img src="../assets/img/zl.png" alt="邹亮" class="main-teacher-pic">
+					<div class="main-teacher-content">
+						<p>负责人：<a href="#">邹亮</a></p>
+						<p>学位：工学博士</p>
+						<p>职称：副教授</p>
+						<p>职务：深圳大学土木工程学院副院长</p>
+						<p>办公室：土木工程学院院馆A504</p>
+						<p>电话：0755-86670305</p>
+						<p>电子邮件：zouliang@szu.edu.cn</p>
+					</div>
+				</div>
+				</div>
+				<div class="co-right-intro">
+					<h2>课程简介</h2>
+					<a href="#" class="more">more&nbsp;&rsaquo;&rsaquo;</a>
+					<p>建设项目是一种具有特定目标，需要在一定资源和时间的约束下，完成的一次性活动。由于其投资庞大，工期漫长，需要大量的不同专业人员参与，内部与外部的影响条件和因素众多，因而建设项目面临的风险比其他行业为多，针对建设项目进行风险管理也对项目实施结果的成功与否具有决定性作用。</p>
+				</div>
+<!--
+				<div class="co-right-intro">
+					<h2>历史沿革</h2>
+					<p>“建设项目风险管理”是我校工程管理专业必修的专业核心课程之一。本课程最早开设于2003年，于2006年成为深圳大学校级精品课程，也是深圳大学土木工程学院的第一门精品课程。迄今为止，国内只有极少数的重点高校开设过类似课程，但大多以讲座形式开设，尚未成为制度化的日常教学课程。从2003年开始，我们在进行了大量相关研究的基础上，使用自编教材开始该课程的教学，一年后，所编写的教材正式出版，并引起了国内同行专家的热烈响应，成为很多国内高校进行风险管理教学的正式教材。</p>
+					<a href="#">more&nbsp;&rsaquo;&rsaquo;</a>
+				</div>
+-->
+				<img src="../assets/img/1.png" class="main-pic">
+			</div>
+		</div>
+	</section>
+
 	<div class="footer">
 		<div class="foot">
+			<div class="fri-link">
+				<h3>友情链接</h3>
+				<ul class="link-list">
+					<li><a href="http://www.szu.edu.cn">深圳大学</a></li>
+					<li><a href="http://ce.szu.edu.cn">深圳大学土木工程学院</a></li>
+					<li><a href="http://www.pmi.org">项目管理协会（美国）</a></li>
+					<li><a href="http://www.lib.szu.edu.cn">深圳大学图书馆</a></li>
+					<li><a href="http://www.baidu.com">百度</a></li>
+				</ul>
+			</div>
+			<ul class="foot-about-list">
+				<li>About Us</li>
+				<li>Services</li>
+				<li>Partners</li>
+				<li>Support</li>
+				<li>Contacts</li>
+				<li><a href="#">管理登陆</a></li>
+			</ul>
 			<p>Copyright © &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">深圳大学</a>-<a href="#">土木工程学院</a>-《建设项目风险管理》精品课程 , 2008&nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved</p>
 		</div>
 	</div>
