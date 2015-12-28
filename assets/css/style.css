@@ -776,3 +776,16 @@ a:visited {
 	text-indent: 2em;
 }
 /*teamintro end*/
+
+/*teachContent*/
+.content-wrap h4{
+	margin: 5px 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.content-wrap.course ol{
+	list-style: inherit;
+	padding-left: 4em;
+}
+/*teachContent end*/
