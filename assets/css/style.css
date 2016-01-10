@@ -927,3 +927,50 @@ a:visited {
 	background: #3e9446;
 }
 /*netanswer end*/
+
+/*answerList*/
+a.pro-btn{
+	display: block;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+	background: #3e9446;
+	color: #fff;
+}
+
+a.pro-btn:hover{
+	background: #2a7d32;
+	color: #fff;
+}
+
+.answer-wrap{
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px dotted #3e9446;
+}
+
+.answer-wrap:last-child{
+	border-bottom: 0;
+}
+
+.answer-wrap>div{
+	width: 100%;
+	margin: 5px 0;
+	overflow: hidden;
+}
+
+.answer-wrap div p{
+	float: left;
+}
+
+.answer-wrap div p:first-child{
+	width: 75px;
+	font-weight: bold;
+}
+
+.answer-wrap .ans-content p,.answer-wrap .ans-answer p{
+	float: none;
+}
+/*answerList end*/
